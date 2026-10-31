@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Label Renovate PRs for yayornay without automatically assigning or requesting human review.",
+  "extends": [
+    "config:best-practices",
+    "group:allNonMajor",
+    ":automergeAll"
+  ],
+  "semanticCommits": "enabled",
+  "addLabels": ["ai-triage"],
+  "assignees": [],
+  "reviewers": [],
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "groupName": "GitHub Actions"
+    }
+  ]
+}
