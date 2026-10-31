@@ -7,6 +7,8 @@
     ":automergeAll"
   ],
   "semanticCommits": "enabled",
+  "minimumReleaseAge": "3 days",
+  "minimumReleaseAgeBehaviour": "timestamp-optional",
   "addLabels": ["ai-triage"],
   "assignees": [],
   "reviewers": [],
