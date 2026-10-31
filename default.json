@@ -8,6 +8,9 @@
   ],
   "semanticCommits": "enabled",
   "assignAutomerge": true,
+  "npm": {
+    "skipInstalls": false
+  },
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
