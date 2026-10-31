@@ -10,6 +10,9 @@
   "addLabels": ["ai-triage"],
   "assignees": [],
   "reviewers": [],
+  "npm": {
+    "skipInstalls": false
+  },
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
